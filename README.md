@@ -1,0 +1,2 @@
+# NumericalMethod
+Bisection_Method_Using_Pascal_That_Shows_The_Steps_Taken
