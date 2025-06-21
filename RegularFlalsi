@@ -36,7 +36,8 @@ begin
         readln(tolerance);
 
         writeln('Val A ','  Val B ','  Val C ','Val FuncA ','Val FuncB ','Val FuncC ',' Eval ');
-        count := 0;
+        writeln('____________________________________________________________');
+        count := 1;
 repeat
         if (fa * fb >= 0) then
                 begin
@@ -47,7 +48,7 @@ repeat
                 begin
                         c :=  falsi(a,b);
                         fc := fal(c);
-                        writeln(a :2:3 ,' | ',b :2:3,' | ',c :2:3,' | ',fa :2:3,' | ',fb :2:3,' | ',fc :2:3,' | ',eval :2:3);
+                        writeln(count, ' | ', a :2:3 ,' | ',b :2:3,' | ',c :2:3,' | ',fa :2:3,' | ',fb :2:3,' | ',fc :2:3,' | ',eval :2:3);
                         Writeln('______________________________________________________________');
                         eval := abs(fal(c)) ;
 
